@@ -24,7 +24,7 @@ f2=1
 
 echo "The Fibonacci sequences for the number $Num is : "
 
-for (( i=0;i<=Num;i++ ))
+for (( i=0;i<=$Num;i++ ))
 do
      echo -n "$f1 "
      fn=$((f1+f2))
